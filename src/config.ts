@@ -7,21 +7,34 @@ export const firebaseConfig = {
   // messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
   // appId: process.env.REACT_APP_FIREBASE_APPID,
   // measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
-  apiKey: 'AIzaSyAnOIHrRunqD82BN6yscpcg78rNTLxSAhM',
-  authDomain: 'revenuesharinginvest-44354.firebaseapp.com',
-  projectId: 'revenuesharinginvest-44354',
-  storageBucket: 'revenuesharinginvest-44354.appspot.com',
-  messagingSenderId: '71002133649',
-  appId: '1:71002133649:web:1f8ca95c618519df339b30',
-  measurementId: 'G-YPFBPWMLF6'
+  // apiKey: 'AIzaSyAnOIHrRunqD82BN6yscpcg78rNTLxSAhM',
+  // authDomain: 'revenuesharinginvest-44354.firebaseapp.com',
+  // projectId: 'revenuesharinginvest-44354',
+  // storageBucket: 'revenuesharinginvest-44354.appspot.com',
+  // messagingSenderId: '71002133649',
+  // appId: '1:71002133649:web:1f8ca95c618519df339b30',
+  // measurementId: 'G-YPFBPWMLF6'
+
+  apiKey: 'AIzaSyBLBV7jmbyQMWiXpY4Id5Lt-LRnWgTNETw',
+  authDomain: 'krowdinvestment.firebaseapp.com',
+  projectId: 'krowdinvestment',
+  storageBucket: 'krowdinvestment.appspot.com',
+  messagingSenderId: '542746657150',
+  appId: '1:542746657150:web:aa01289296ead53820f32f',
+  measurementId: 'G-ZZVEBWVHXS'
 };
 export const firebaseConfigSecondary = {
-  apiKey: 'AIzaSyAnOIHrRunqD82BN6yscpcg78rNTLxSAhM',
-  appId: '1:71002133649:web:1f8ca95c618519df339b30',
-  projectId: 'revenuesharinginvest-44354'
+  // apiKey: 'AIzaSyAnOIHrRunqD82BN6yscpcg78rNTLxSAhM',
+  // appId: '1:71002133649:web:1f8ca95c618519df339b30',
+  // projectId: 'revenuesharinginvest-44354'
+
+  apiKey: 'AIzaSyBLBV7jmbyQMWiXpY4Id5Lt-LRnWgTNETw',
+  appId: '1:542746657150:web:aa01289296ead53820f32f',
+  projectId: 'krowdinvestment'
 };
 export const REACT_APP_API_URL =
-  'https://ec2-13-215-197-250.ap-southeast-1.compute.amazonaws.com/api/v1.0/';
+  // 'https://ec2-13-215-197-250.ap-southeast-1.compute.amazonaws.com/api/v1.0/';
+  'http://krowd-investment-api.reso.vn/api/v1.0/';
 
 export const cognitoConfig = {
   userPoolId: process.env.REACT_APP_AWS_COGNITO_USER_POOL_ID,
